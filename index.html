@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        .header{
+            width: 100%;
+            height: 60px;
+            background-color: rgb(255, 255, 255) ;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-inline: 130px;
+            position: fixed;
+            z-index: 100;
+        }
+        li{
+            display: inline;
+            margin: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .upper-part{
+            width: 100%;
+            height: 604px;
+           background-color: rgb(249, 249, 249);     
+        }
+        .ri2{
+            width: 140px;
+            height: 35px;
+            background: rgb(92,219,82);
+            background: linear-gradient(90deg, rgba(92,219,82,1) 39%, rgba(27,214,206,1) 60%, rgba(27,214,206,1) 61%);
+            border-radius: 20px;
+            text-align: center;
+        }
+        .we{
+            margin-left: 150px;
+        }
+        h1{
+            font-size: 50px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .t1{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 15px;
+            color: rgb(102, 102, 102);
+        }
+        .t2{
+            margin-left: 23px;
+            margin-top: -27px;
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .t3{
+            color: rgb(255, 255, 255);
+            background: rgb(92,219,82);
+            background: linear-gradient(90deg, rgba(92,219,82,1) 39%, rgba(27,214,206,1) 60%, rgba(27,214,206,1) 61%);
+            padding: 11px;
+            border-radius: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            position: relative;
+            z-index: 130;
+
+        }
+        .phone{
+            float: right;
+            margin-top: -490px;
+            height: 800px;
+            margin-right: 30px;
+            position: relative;
+            z-index: 80;
+        }
+        .rec1{
+            width: 600px;
+            height: 120px;
+            background-color: rgb(92,219,82);
+            margin-top: -358px;
+            margin-left: 740px;
+            position: relative;
+            z-index: 50;
+        }
+        .rec2{
+            width: 600px;
+            height: 120px;
+            margin-top: 80px;
+            background-color: rgba(27,214,206,1) ;
+            margin-left: 740px;
+            position: relative;
+        }
+        .rec3{
+            width: 600px;
+            height: 120px;
+            background-color: rgb(92,219,82);
+            margin-top: 110px;
+            margin-left: 740px;
+            position: relative;
+            z-index: 50;
+        }
+        h2{
+            margin-left: 150px;
+            font-size: 55px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .t4{
+            margin-left: 150px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 17px;
+            color: rgb(102, 102, 102);
+        }
+        .middle-part{
+            background-color: rgb(241, 241, 241);
+            width: 100%;
+            height: 670px;
+            position: relative;
+            z-index: 20;
+            margin-top: 1px;
+        }
+        .o1{
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 100px;
+        }
+        .t5{
+            margin-left: 100px;
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(146, 146, 146);
+        }
+        .o2{
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 370px;
+            margin-top: -110px;
+        }
+        .t6{
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(146, 146, 146);
+            margin-left: 370px ;
+        }
+        .o3{
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 650px;
+            margin-top: -110px;
+        }
+        .t7{
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(146, 146, 146);
+            margin-left: 650px ;
+        }
+        .o4{
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 989px;
+            margin-top: -130px;
+        }
+        .t8{
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(146, 146, 146);
+            margin-left: 989px ;
+            margin-top: 20px;
+        }
+        h4{
+            font-size: 35px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left:   150px;
+        }
+        .la1{
+            margin-left: 150px;
+        }
+        .t9{
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(146, 146, 146);
+        }
+        .t10{
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(146, 146, 146);
+        }
+        .la2{
+            margin-left: 440px;
+            margin-top: -157px;
+        }
+        .t11{
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(146, 146, 146);
+        }
+        .t12{
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(146, 146, 146);
+        }
+        .la3{
+            margin-left: 750px;
+            margin-top: -160px;
+        }
+        .t13{
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(146, 146, 146);
+        }
+        .t14{
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(146, 146, 146);
+        }
+        .la4{
+            margin-left: 1050px;
+            margin-top: -160px;
+        }
+        .t15{
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(146, 146, 146);
+        }
+        .t16{
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(146, 146, 146);
+        }
+        .footer{
+            width: 100%;
+            height: 210px;
+            background-color: rgb(44, 0, 146);
+        }
+        .icon{
+            margin-left: 200px;
+            margin-top: 30px;
+        }
+        .t17{
+            color: rgb(255, 255, 255);
+            background: rgb(92,219,82);
+            background: linear-gradient(90deg, rgba(92,219,82,1) 39%, rgba(27,214,206,1) 60%, rgba(27,214,206,1) 61%);
+            padding: 11px;
+            border-radius: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            width: 130px;
+            margin-left: 1090px;
+            margin-top: -40px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="header">
+            <img src="logo.svg">
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Blog</li>
+                    <li>Careers</li>
+                </ul>
+            </nav>
+            <p class="t3">Request Invite</p>
+        </div>
+        <div class="upper-part">
+            <div class="we">
+                <br><br><br><br><br><br><br><br><br>
+            <h1>Next generation<br>digital banking</h1>
+            <br>
+            <p class="t1">Take your financial life online. your Easybank account<br>will be a one-stop-shop foe spending, saving,<br> budgeting, investing, and much more.</p>
+            <br><br>
+            <div class="ri2"></div>
+            <p class="t2">Request Invite</p>
+            </div>
+            <img class="phone" src="im.png" alt="">
+            <div class="rec1"></div>
+            <div class="rec2"></div>
+            <div class="rec3"></div>
+        </div>
+        <div class="middle-part">
+            <br><br><br><br><br><br><br><br><br><br>
+            <h2>Why Choose Easybank?</h2>
+            <br>
+            <p class="t4">We leverage Open Banking to turn your bank account into your financialhub.<br>Control your finances like never before.</p>
+            <br><br><br><br><br>
+            <img src="icon-online.svg" style="margin-left: 150px;">
+            <img src="icon-budgeting.svg" style="margin-left: 200px;">
+            <img src="icon-onboarding.svg" style="margin-left: 220px;">
+            <img src="icon-api.svg" style="margin-left: 193px;">
+            <br><br>
+            <br>
+            <h3 class="o1">Online Banking</h3>
+            <br>
+            <p class="t5">Our modern web and mobile<br>applications allow you to keep <br> track nof your finances wherever you<br>are in the world.</p>
+            <h3 class="o2"> Simple Budgeting</h3>
+            <br>
+            <p class="t6">See exactly where your money<br>goes each month. Receive<br>notifications when you are close to<br> hitting your limits. </p>
+            <h3 class="o3"> Fast Onboarding</h3>
+            <br>
+            <p class="t7">We don't do branches.Open your<br>account in minutes online and start<br>taking control of your finances<br>right away. </p>
+            <br>
+            <h3 class="o4"> Open API</h3>
+            <p class="t8">Manage your savings, investments,<br>pension, and much more from one<br> account. Tracking your money has<br>never been easier.</p>
+                
+        </div>
+        <br><br><br><br><br><br>
+            <h4>Latest Articles</h4>
+            <br><br><br><br>
+        <div>
+            <img src="ic.jpg" height="180px" width="220px" style="margin-left: 150px; border-radius: 10px;">
+            <img src="ir.jpg" height="180px"  width="220px" style="margin-left: 70px; border-radius: 10px;">
+            <img src="ip.jpg" height="180px"  width="220px" style="margin-left: 70px; border-radius: 10px;">
+            <img src="imc.jpg" height="180px"  width="220px" style="margin-left: 70px; border-radius: 10px;">
+            <br><br>
+            <div class="la1">
+                <p class="t9">By Claire Robinson</p>
+                <br>
+                <h5 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 20px;">Receive money in any<br>currency with no fees</h5>
+                <br>
+                <p class="t10">The world is getting smaller and<br>we're becoming more mobile. So<br>why should you be forced to only<br>recieve money in single..... </p>
+            </div>
+            <div class="la2">
+                <p class="t11">By Wilson Hutton</p>
+                <br>
+                <h5 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 20px;">Treat yourself without<br>worrying about money</h5>
+                <br>
+                <p class="t12">Our simple budgeting feature<br>allows you separate out your<br>spending and set realistic limits<br>each month. That means you.....</p> 
+            </div>
+            <div class="la3">
+                <p class="t13">By Claire Robinson</p>
+                <br>
+                <h5 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 20px;">Take your Easybank card<br>wherever you go</h5>
+                <br>
+                <p class="t14">We want you to enjoy your travels.<br>This is why we don't charge any<br>fees on purchase while you're<br>abroad. We'll even show you.....</p> 
+            </div>
+            <div class="la4">
+                <p class="t15">By Wilson Hutton</p>
+                <br>
+                <h5 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 20px;">Our invite-only Beta<br>accounts are now live!</h5>
+                <br>
+                <p class="t16">After a lot hard work by the whole<br>team, we're excited to lanuch<br>our closed beta. It's easy to request<br>an invite through the site.....</p> 
+            </div>
+            <br><br><br><br><br><br>
+        </div>
+        <div class="footer">
+            <img src="logo.svg" style="margin-left: 185px; margin-top: 50px; background-color: white; border-radius: 10px; padding: 10px;">
+            <div class="icon">
+            <img src="icon-pinterest.svg">
+            <img src="icon-twitter.svg">
+            <img src="icon-youtube.svg">
+            <img src="icon-instagram.svg">
+            <img src="icon-facebook.svg">
+            </div>
+            <div style="margin-left: 550px;margin-top: -60px; color: white;">
+                <li>About us</li>
+                <li>Contact Us</li>
+                <li>Blog</li>
+            </div> 
+            <div style="margin-left: 550px; margin-top: 20px; color: white;">
+                <li>Careers</li>
+                <li>Support</li>
+                <li>Privacy Policy</li>
+            </div>
+            <p class="t17">Request Invite</p>
+        </div>
+    </div>
+</body>
+</html>
